@@ -1,6 +1,6 @@
 # Headless WordPress with React
 
-The idea for this came from a project where the users had to use WordPress for the backend but with React on the frontend. The good thing is the backend can be swapped for any other backend tech (i.e. Node.js, Laravel, Storyblok, Contentful, etc.). __Lots of improvements to be made when I have time__
+The idea for this came from a project where the users had to use WordPress for the backend but with React on the frontend. The good thing is the backend can be swapped for any other backend tech (i.e. Node.js, Laravel, Storyblok, Contentful, etc.). __Lots of improvements to be made when I have time.__
 
 ## Sources
 
@@ -8,7 +8,7 @@ https://reactjs.org/docs/create-a-new-react-app.html
 https://tailwindcss.com/docs/guides/create-react-app
 
 ## Running the project locally
-You can use [Lando](https://docs.lando.dev/getting-started/installation.html) to run WP  
+You can use [Lando](https://docs.lando.dev/getting-started/installation.html) to run WordPress  
 or you can set it up however you like and just add the URL to `frontend/.env`
 
 1. Copy `frontend/.env.example` --> `frontend/.env` and add the correct info
