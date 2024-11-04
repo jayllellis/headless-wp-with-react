@@ -1,0 +1,11 @@
+{
+  "config": {
+    "platform-check": false,
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.4"
+  }
+}

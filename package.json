@@ -1,0 +1,13 @@
+{
+  "name": "react-headless-wp-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd api; composer install; lando start; cd ../frontend; yarn; yarn start",
+    "build": "cd frontend; yarn build",
+    "build:clean": "git stash; git clean -fd; git pull; yarn build",
+    "migrate:prod": "~/.migrate-prod.sh",
+    "migrate:dev": "~/.migrate-dev.sh"
+  },
+  "dependencies": {}
+}
